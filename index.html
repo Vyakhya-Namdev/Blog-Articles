@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog Platform - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="homePage">
+
+  <header class="header">
+    <h1>Blog Platform</h1>
+    <button id="addArticleBtn" class="btn-primary">Add Article</button>
+  </header>
+
+  <main>
+    <div id="articles"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    // Redirect to add article page
+    document.getElementById('addArticleBtn').addEventListener('click', () => {
+      window.location.href = 'add.html';
+    });
+
+    // Show articles on load
+    renderArticles();
+  </script>
+</body>
+</html>
