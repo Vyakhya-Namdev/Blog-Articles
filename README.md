@@ -1,6 +1,6 @@
 # 📝 Blog Articles
 
-Welcome to **Blog Articles** — my personal blog site where I share articles, ideas, and creative projects! 🚀  
+Welcome to **Blog Articles** — a public blog site where I share articles, ideas, and creative projects! 🚀  
 This site is built with ❤️ using **HTML**, **CSS**, and **JavaScript**.
 
 ---
